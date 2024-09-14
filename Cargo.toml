@@ -1,0 +1,21 @@
+[package]
+name = "sql_engine"
+version = "0.0.1"
+edition = "2021"
+license = "GPL-3.0"
+authors = ["Luka Bursać"]
+readme = "README.md"
+
+[dependencies]
+
+# Subcomponents
+[workspace]
+members = ["libraries/*"]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+license = "GPL-3.0"
+authors = ["Luka Bursać"]
+
+
